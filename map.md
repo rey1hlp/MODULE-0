@@ -1,8 +1,6 @@
-PART 4
-```sirena
-gráfico TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+```mermaid
+graph TD;
+    A[Sirena 1] --> B[Ubicación A];
+    A[Sirena 1] --> C[Ubicación B];
+    B[Ubicación A] --> D;
+    C[Ubicación B] --> D;
